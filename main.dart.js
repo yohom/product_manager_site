@@ -99662,7 +99662,7 @@ n=$.aLk()
 p=p.fv()
 m=$.aal()
 s=2
-return A.L(m.a0w("http://121.5.189.181:11335/foreigntrade/product/add",$.aad(),p,t.z).bf(n.gFz(),t.a).bf(A.bfF(),t.nr),$async$xA)
+return A.L(m.a0w("https://tsltest.yilidouzi.com/product-manager/product/add",$.aad(),p,t.z).bf(n.gFz(),t.a).bf(A.bfF(),t.nr),$async$xA)
 case 2:s=3
 return A.L(q.pu$.eu(0),$async$xA)
 case 3:return A.I(null,r)}})
@@ -99676,13 +99676,13 @@ $1(a){return A.b9i(a)},
 $S:604}
 A.az9.prototype={
 $1(a){$.aL6()
-return $.aLk().a2u("/foreigntrade/product/tag",A.bfH(),t.Tv)},
+return $.aLk().a2u("/product-manager/product/tag",A.bfH(),t.Tv)},
 $S:605}
 A.az8.prototype={
 $1(a){var s
 $.aL6()
 s=a==null?new A.hg():a
-return $.aLk().ays("/foreigntrade/product",A.bfG(),s.fv(),t.W6)},
+return $.aLk().ays("/product-manager/product",A.bfG(),s.fv(),t.W6)},
 $S:606}
 A.a4P.prototype={}
 A.aq1.prototype={
@@ -99709,9 +99709,9 @@ q.p(0,"Authorization",p)}b.Lj(0,a)
 return A.I(null,r)}})
 return A.J($async$pY,r)}}
 A.a5D.prototype={
-a2u(a,b,c){return $.aal().azy(0,"http://121.5.189.181:11335"+a,$.aad(),null,null,A.aRC("GET",null),B.jp,t.z).bf(this.gFz(),t.a).bf(this.gSN(),t.b5).bf(new A.aFw(b,c),c.h("o<0>"))},
+a2u(a,b,c){return $.aal().azy(0,"https://tsltest.yilidouzi.com"+a,$.aad(),null,null,A.aRC("GET",null),B.jp,t.z).bf(this.gFz(),t.a).bf(this.gSN(),t.b5).bf(new A.aFw(b,c),c.h("o<0>"))},
 ays(a,b,c,d){var s=$.aal()
-return s.a0w("http://121.5.189.181:11335"+a,$.aad(),c,t.z).bf(this.gFz(),t.a).bf(this.gSN(),t.b5).bf(new A.aFy(b,d),d.h("o<0>"))},
+return s.a0w("https://tsltest.yilidouzi.com"+a,$.aad(),c,t.z).bf(this.gFz(),t.a).bf(this.gSN(),t.b5).bf(new A.aFy(b,d),d.h("o<0>"))},
 abq(a){var s,r,q,p,o=null,n=a.a
 if(n==null){s=t.z
 s=A.u(s,s)}else s=n
