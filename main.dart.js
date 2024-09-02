@@ -102751,11 +102751,11 @@ g=A.c6(B.e.j(p==null?0:p),l,l,l,l,l,l,l,l)
 s=A.c6("$"+A.j(j.Q),l,l,l,l,l,l,l,l)
 r=j.as
 if(r==null)r="\u65e0"
-else r=""+B.d.ap(r)+"%"
+else r=""+B.d.ap(r*100)+"%"
 r=A.c6(r,l,l,l,l,l,l,l,l)
 q=j.at
 if(q==null)q="\u65e0"
-else q=""+B.d.ap(q)+"%"
+else q=""+B.d.ap(q*100)+"%"
 q=A.c6(q,l,l,l,l,l,l,l,l)
 p=j.ax
 p=A.c6("$"+A.j(p==null?0:p),l,l,l,l,l,l,l,l)
