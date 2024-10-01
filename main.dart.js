@@ -54726,11 +54726,11 @@ if(p)q.kn(A.b8o(s,r.c))
 else q.fC(A.aQw(s,A.dV(0,0,r.e,0,0)),A.hJ())}},
 $S:60}
 A.aes.prototype={
-$1(a){var s,r=this,q=r.b,p=q.readyState,o=self
-if(p<o.XMLHttpRequest.DONE&&q.readyState>o.XMLHttpRequest.UNSENT){p=r.a.a
-if(p!=null)p.aP(0)
-try{q.abort()}catch(s){}q=r.c
-if((q.a.a&30)===0)q.kn(A.wx("The XMLHttpRequest was aborted.",u.R,r.d,null,null,B.md))}},
+$1(a){var s,r,q=this,p=q.b
+if(p.readyState<4&&p.readyState>0){s=q.a.a
+if(s!=null)s.aP(0)
+try{p.abort()}catch(r){}p=q.c
+if((p.a.a&30)===0)p.kn(A.wx("The XMLHttpRequest was aborted.",u.R,q.d,null,null,B.md))}},
 $S:23}
 A.aet.prototype={
 $1(a){return this.a.dj(0,a)},
