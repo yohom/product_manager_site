@@ -108624,11 +108624,11 @@ q.p(0,"Authorization",p)}b.jP(0,a)
 return A.K(null,r)}})
 return A.L($async$r6,r)}}
 A.a86.prototype={
-a7e(a,b,c){return $.acU().aGd(0,"https://tsltest.yilidouzi.com"+a,$.acN(),null,null,A.aVU("GET",null),B.kf,t.z).bm(this.gIC(),t.a).bm(this.gWN(),t.b5).bm(new A.aJN(b,c),c.h("o<0>"))},
+a7e(a,b,c){return $.acU().aGd(0,"http://121.40.244.234:11335"+a,$.acN(),null,null,A.aVU("GET",null),B.kf,t.z).bm(this.gIC(),t.a).bm(this.gWN(),t.b5).bm(new A.aJN(b,c),c.h("o<0>"))},
 FK(a,b){var s=$.acU()
-return s.a5c("https://tsltest.yilidouzi.com"+a,$.acN(),b,t.z).bm(this.gIC(),t.a).bm(A.bkg(),t.nr)},
+return s.a5c("http://121.40.244.234:11335"+a,$.acN(),b,t.z).bm(this.gIC(),t.a).bm(A.bkg(),t.nr)},
 aFc(a,b,c,d){var s=$.acU()
-return s.a5c("https://tsltest.yilidouzi.com"+a,$.acN(),c,t.z).bm(this.gIC(),t.a).bm(this.gWN(),t.b5).bm(new A.aJP(b,d),d.h("o<0>"))},
+return s.a5c("http://121.40.244.234:11335"+a,$.acN(),c,t.z).bm(this.gIC(),t.a).bm(this.gWN(),t.b5).bm(new A.aJP(b,d),d.h("o<0>"))},
 agD(a){var s,r,q,p,o=null,n=a.a
 if(n==null){s=t.z
 s=A.x(s,s)}else s=n
